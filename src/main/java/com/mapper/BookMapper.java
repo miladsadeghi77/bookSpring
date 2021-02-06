@@ -1,6 +1,6 @@
-package com.BookCrudProject.repository;
+package com.mapper;
 
-import com.BookCrudProject.model.Book;
+import com.model.Book;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

@@ -1,6 +1,8 @@
-package com.BookCrudProject.dao;
+package com.repository;
 
-import com.BookCrudProject.model.Book;
+
+
+import com.model.Book;
 
 import java.util.List;
 
@@ -11,3 +13,4 @@ public interface BookDao {
     boolean updateBook(Book book);
     boolean createBook(Book book);
 }
+
